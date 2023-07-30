@@ -1,0 +1,161 @@
+body {
+	background-color: hsl(0, 0%, 95%);
+}
+div#sedanContainer {
+	background-color: hsl(31, 77%, 52%);
+	width: 250px;
+	height: 350px; 
+	position: absolute;
+	left: 10px;
+	border-radius: 5px 5px 0 0;
+}
+div#suvContainer {
+	background-color: hsl(184, 100%, 22%);
+	width: 250px;
+	height: 350px;
+	position: absolute;
+	top: 350px;
+	left: 10px;
+}
+div#luxuryContainer {
+	background-color: hsl(179, 100%, 13%);
+	width: 250px;
+	height: 350px;
+	position: absolute;
+	top: 700px;
+	left: 10px;
+	border-radius: 0 0 5px 5px
+}
+img#sedanImg {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+img#suvImg {
+	width: 40px;
+	height: 35px;	
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+img#luxuryImg {
+	width: 40px;
+	height: 35px;
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+h2#sedanHead {
+	color: hsl(0, 0%, 95%);
+   position: absolute;
+   top: 60px;
+   left: 20px;
+   font-family: "Big Shoulders Display", cursive;
+}
+h2#suvHead {
+	color: hsl(0, 0%, 95%);
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	font-family: "Big Shoulders Display", cursive;
+}
+h2#luxuryHead {
+	color: hsl(0, 0%, 95%);
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	font-family: "Big Shoulders Display", cursive;
+}
+p#sedanDetails {
+	color: hsla(0, 0%, 100%, 0.75);
+	position: absolute;
+	top: 110px;
+	left: 20px;
+	width: 195px;
+	font-family: "Lexend Deca", sans-serif;
+}
+p#suvDetails {
+	color: hsla(0, 0%, 100%, 0.75);
+	position: absolute;
+	top: 110px;
+	left: 20px;
+	width: 195px;
+	font-family: "Lexend Deca", sans-serif;
+}
+p#luxuryDetails {
+	color: hsla(0, 0%, 100%, 0.75);
+	position: absolute;
+	top: 110px;
+	left: 20px;
+	width: 195px;
+	font-family: "Lexend Deca", sans-serif;
+}
+button#sedanBtn {
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 16px;
+	position: absolute;
+	top: 270px; 
+	left: 20px;
+	height: 40px;
+	width: 130px;
+	border: none;
+	cursor: pointer;
+}
+button#suvBtn {
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 16px;
+	position: absolute;
+	top: 270px;
+	left: 20px;
+	height: 40px;
+	width: 130px;
+	border: none;
+	cursor: pointer;
+}
+button#luxuryBtn {
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 16px;
+	position: absolute;
+	top: 270px;
+	left: 20px;
+	height: 40px;
+	width: 130px;
+	border: none;
+	cursor: pointer;
+}
+p#sBtnTxt {
+	color: hsl(31, 77%, 52%);
+	font-family: "Lexend Deca", sans-serif;
+}
+p#suvBtnTxt {
+	color: hsl(184, 100%, 22%);
+	font-family: "Lexend Deca", sans-serif;
+}
+p#lBtnTxt {
+	color: hsl(179, 100%, 13%);
+	font-family: "Lexend Deca", sans-serif;
+}
+
+@media (min-width: 600px) {
+	div#sedanContainer {
+		position: absolute;
+		left: 240px;
+		top: 130px;
+		border-radius: 5px 0 0 5px;
+	}
+	
+	div#suvContainer {
+		position: absolute;
+		left: 470px;
+		top: 130px;
+	}
+	
+	div#luxuryContainer {
+		position: absolute;
+		left: 720px;
+		top: 130px;
+		border-radius: 0 5px 5px 0;
+	}
+}
